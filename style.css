@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: url(bg.jpg);
+    overflow: hidden;
+    background-size: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 80px;
+    float: left
+    
+}
+.logo img{
+    width:80px;
+    margin-top: 20px
+}
+.menu {
+    float: right;
+
+}
+
+.menu ul li {
+    float: left;
+    padding: 30px;
+    color: white;
+    list-style: none;
+
+}
+
+.menu ul {
+    text-decoration: none;
+
+}
+
+.menu ul li a {
+    color: white;
+    
+}
+
+.slide-text{
+    text-align: center;
+    padding-top:200px;
+    width:1000px;
+}
+.slide-text h1{
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 120px;
+    letter-spacing: 15px;
+
+}
+.slide-text h3{
+    text-transform: uppercase;
+    color: yellow;
+    font-size:80px;
+    letter-spacing: 15px;
+    line-height: 100px
+}
+.slide-text p{
+    text-transform: uppercase;
+    color: yellow;
+    font-size:70px;
+    letter-spacing: 15px;
+    line-height: 200px
+}
+.slide-text span{
+    color: red;
+}
+.slide-text button{
+    padding: 10px;
+    color: yellow;
+    background: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 4px solid red;
+    margin-left: 500px;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 10px;}
+
+
+
+.services{
+   text-align: center;
+    width: 600px;
+    margin:0 auto;
+    
+}
+
+
+.services h1{
+    font-size: 70px; 
+    font-weight: bold;
+    margin-top: 100px;
+}
+.services span{
+    color: red;
+}
+.box-area{
+    overflow: hidden;
+}
+.box{
+    width: 247px;
+    border: 2px solid red;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 100px;
+    background: black;
+    color: white;
+    padding: 20px
+        
+}
+.box p{
+    
+    padding: 5px;
+    text-align: left
+        
+}
+.box h4{
+    
+    padding: 20px;
+    text-align: left
+}
+.box img{
+    width: 100px;
+    
+}
+.recent-project h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size:50px;
+    text-transform: uppercase;
+    font-weight: bold;
+      
+}
+.recent-project span{
+    color: red;
+}
+.recent-box{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+    
+  
+    }
+.text-box{
+    width: 398px;
+    float: left;
+    height: 350px;
+    padding: 50px;
+    margin-top: 30;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    }
+.bg-box{
+    width: 398px;
+    float: left
+    }
+.bg-box img{
+    width: 398px;
+    float: left;
+    height:350px;
+    }
+.about-me{
+    width:800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: hidden
+    
+}
+.my-image{
+    width: 300px;
+    height: 300px;
+
+    float: left;
+    
+    
+}
+.my-image img{
+    width: 296px;
+    height: 296px;
+    border: 2px solid red;
+}
+.me-details{
+    float: right;
+    width:400px;
+    height:400px;
+    padding: 10px;    
+}
+.about-me button{
+    padding: 10px;
+    border: 2px solid red;
+  
+}
+.contact-info{
+    width: 800px;
+   
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.contact-info span{
+    color: red;
+    }
+.contact-box{
+    width: 800px;
+   
+    margin: 0 auto;
+    margin-top: 70px;
+    height: 400px;
+}
+.phone{
+    width: 230px;
+    height: 150px;
+    float: left;
+    margin-left: 0px;
+    border: 2px solid black;
+    padding:15px;
+    
+    
+}
+.email{
+    width: 230px;
+    height: 150px;
+    margin-left: 50px;
+    float: left;
+    
+    border: 2px solid black;
+}
+.address{
+    width: 230px;
+    height: 150px;
+    float: left;
+    margin-left:50px;
+    border: 2px solid black;
+}
+.phone img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 20px
+   
+}
+.phone text{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 0px;
+    border: 2px solid black;
+    margin-top: 20px
+
+}
+.email img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 30px
+}
+.email text p{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 20px
+}
+.address img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 0px;
+  
+    margin-top: 20px
+}
+.address text p{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 0px;
+    border: 2px solid black;
+    margin-top: 20px
+}
+.bottom{
+    background: black;
+    background-size: 100%;
+    height:350px;
+    
+}
+.botton-div{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px
+}
+.botton-div h1{
+    font-size: 50px;
+    color: white;
+}
+.botton-div h3{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase
+}
+.botton-div span{
+    color: red;
+}
+.botton-div p{
+    
+    color: white;}
+.social-logo{
+   width: 600px
+    
+}
+.social-logo img{
+    width: 50px
+}
